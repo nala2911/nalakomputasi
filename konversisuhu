@@ -58,3 +58,4 @@ if(satuan=='K'):
 
 st.write(x , ' ' , satuan, '=' , y, ' ' , konversi)
 
+st.caption('Copyright © Nala Nasihatul Uluum 2023')
