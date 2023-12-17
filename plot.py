@@ -10,7 +10,7 @@ nama = st.text_input('Nama', 'Nala', label_visibility='collapsed')
 st.write('Halo',nama)
 
 f1 = st.number_input('f1 = ',value=1)
-f2 = st.number_input('f1 = ',value=1)
+f2 = st.number_input('f2 = ',value=1)
 st.write('Frekuensi plot sinus adalah ',f1)
 st.write('Frekuensi plot cosinus adalah ',f2)
 
