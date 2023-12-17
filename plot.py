@@ -6,7 +6,7 @@ import streamlit as st
 st.header('Nala :sparkles:')
 st.subheader('Plot')
 
-nama = st.text_input('Nama', 'Nala', label_visibility='collapsed")
+nama = st.text_input('Nama', 'Nala', label_visibility='collapsed')
 st.write('Halo',nama)
 
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
